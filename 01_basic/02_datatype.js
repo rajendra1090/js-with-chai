@@ -38,3 +38,11 @@ console.log(unquieSymbol)
 // i)               Object                                object
 // ii)              Array                                  object
 // iii)             Function                            function(object)
+
+//Memory Management
+//Primitive types (numbers, booleans, strings) are stored in stack memory, while non-primitive types (objects) are stored in heap memory.
+
+//Stack memory operates on a Last-In-First-Out (LIFO) principle, whereas heap memory uses dynamic allocation.
+
+//Variable Behavior
+//Changes to primitive type variables create copies, not affecting the original, while changes to non-primitive type variables affect all references.
